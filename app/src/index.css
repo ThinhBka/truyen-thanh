@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login-form {
+  margin-top: 20vh !important;
+  margin-left: 50px !important;
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.login-text{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ant-table-wrapper {
+  margin-top: 10vh;
+}
+.info-user {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.ant-table-cell {
+  text-align: center !important;
+}
+.btn-save-source{
+  float: right !important;
+  margin: 20px 38px 10px 10px;
+}
+.btn-edit-source{
+  float: right !important;
+  margin: 20px 10px 10px 10px;
+}
+.box-micro{
+  position: relative;
+  left: 40%;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+}
+.btn-micro-source{
+  transform: scale(2.5);
+}
+.background-run{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -30%;
+  top: -30%;
+  border-radius: 50%;
+  z-index: -10;
+  background-color: rgb(168, 214, 255);
+  animation: runMic 5s infinite;
+  /* transition: all 2s ease-in-out; */
+}
+
+@keyframes runMic {
+  from{
+    transform: scale(1);
+    opacity: 1;
+  }
+  to{
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+.upload-source{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 14px 0;
+}
